@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: "Poppins";
+}
+
+/* Nav Bar Styling */
+
+.navbar-container{
+    padding: 0px 100px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.navbar-container div:nth-child(1){
+    flex: 1;
+}
+
+.grow-list{
+    flex: 2;
+}
+
+/* Nav Bar List */
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list-item{
+    font-size: 20px;
+    color: #C8C8C8;
+}
+
+.list li:nth-child(1){
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Nav Bar Button */
+.button-group{
+    text-align: right;
+    flex: 1;
+}
+
+.nav-button{
+    background-color: #5955B3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* Main Container Styling */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.banner-container>div {
+    flex: 1;
+}
+
+/* Main Container Text */
+.banner-container>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Main Container Heading */
+.heading-text{
+    font-size: 75px;
+    color: #3C2F60;
+    max-width: 500px;
+}
+
+.heading-text span{
+    color: #5955B3;
+}
+
+/* Main Container Description */
+.description{
+    font-size: 20px;
+    max-width: 500px;
+    color: #C8C8C8;
+    padding: 25px 0px;
+}
+
+/* Main Container Button */
+.btn{
+    margin-top: 25px;
+    padding: 20px 40px;
+}

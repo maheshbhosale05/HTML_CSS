@@ -1,0 +1,325 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #f5f5f5;
+  max-width: 1500px;
+  margin: auto;
+}
+
+header{
+  height: 500px;
+  background-color: #3400ff;
+}
+
+nav{
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.nav-item{
+  margin-right: 20px;
+  color: #fff;
+}
+
+.nav-item-active{
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5a31fc;
+  margin-right: 20px;
+  font-weight: 400;
+}
+
+.logo{
+  margin: 20px;
+}
+
+.header-text{
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 50px;
+  float: left;
+}
+
+.header-image{
+  float: right;
+}
+
+.companies{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  margin-left: 30px;
+  font-family: "Righteous";
+}
+
+.api-heading{
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+
+.cards{
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.card{
+  width: 20%;
+  height: 250px;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.card-active{
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-logo{
+  margin: 30px 0px 0px 30px;
+}
+
+.card-head-active{
+  color: #000;
+    margin-left: 30px;
+}
+
+.card-body{
+  color: #000;
+  font-size: 10px;
+  margin-left: 30px;
+}
+
+.blog-heading{
+  margin-left: 90px;
+}
+
+.blog-cards{
+  margin-left: 90px;
+  display: flex;
+}
+
+.blog-card{
+  display: flex;
+}
+
+.card-head{
+  margin-left: 30px;
+}
+
+.blog-heading{
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+
+.blog-card{
+  margin-top: 30px;
+  background-color: #fff;
+  margin-right: 30px;
+  border-radius: 50px 8px 8px;
+  box-shadow: 0px 5px 15px #000;
+  width: fit-content;
+}
+
+.blog-image{
+  order: -4;
+}
+
+.blog-author{
+  order: -3;
+  width: 125px;
+  text-align: right;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.blog-bottom{
+  order: -2 ;
+  width: 100px;
+  padding: 20px 20px;
+}
+
+.blog-content{
+  width: 200px;
+}
+
+.faq-section{
+  background-color: #E9EDFF;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.faq-content{
+  margin-left: 90px;
+}
+
+.faq-content>button{
+  border: none;
+  background-color: #5A31FC;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 30px;
+  margin: 10px;
+}
+
+.download-section{
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-content>h1{
+  font-size: 40px;
+}
+
+.download-content>h1>span{
+  font-size: 20px;
+}
+
+.download-email{
+  border: 1px solid #000000;
+  background-color: #E9EDFF;
+  border-radius: 30px;
+  padding: 2px;
+}
+
+.download-email>form>input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.download-email>form>button{
+  background-color: #5A31FC;
+  color: #FFFFFF;
+  padding: 5px 30px;
+  cursor: pointer;
+  border: none;
+  font-size: 10px;
+  border-radius: 30px;
+}
+
+.footer-section{
+  margin-top: 50px;
+  background-color: #5A31FC;
+  padding: 20px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  display: flex;
+  padding: 0;
+}
+
+.list-items{
+  list-style-type: none;
+  color: #FFFFFF;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.footer-logos{
+  margin-left: 30px;
+}
+
+.logos-list{
+  display: flex;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+  .blog-cards{
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 1065px) {
+
+  .header-image{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+
+  .faq-image{
+    display: none;
+  }
+  .faq-section{
+    justify-content: center;
+  }
+
+  .cards{
+    flex-direction: column;
+  }  
+  .card{
+    width: 50%;
+    margin-top: 20px;
+  }
+  .card-active{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+  .blog-heading,.blog-cards{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  
+  .footer-section, .download-section{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  /* need to add svg for open menu bar as panel */
+  .nav-item, .list{
+    display: none;
+  }
+  .card{
+    width: 90%;
+    margin-top: 20px;
+  }
+  .card-active{
+    width: 90%;
+  }
+}
